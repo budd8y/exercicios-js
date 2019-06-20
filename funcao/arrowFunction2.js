@@ -8,3 +8,9 @@ function Pessoa() {
     }, timeFn);
 }
 new Pessoa();
+
+/**
+ * Quando utilizamos arrow function, o this permanece no contexto
+ * no qual foi definido. Isso faz com que não haja necessidade
+ * de utilizar o bind. (lexux)
+ */
