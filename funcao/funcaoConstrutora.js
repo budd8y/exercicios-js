@@ -12,6 +12,9 @@ function Carro(velocidadeMaxima = 200, delta = 5) {
     }
 
     // metodo publico
+    // para deixar privado, ao inves de utilizar o 'this.getVelocidadeAtual',
+    // usuariamos o const getVelocidadeAtual ou
+    // let getVelocidadeAtual 
     this.getVelocidadeAtual = function () {
         return velocidadeAtual;
     }
@@ -26,3 +29,6 @@ ferrari.acelerar();
 ferrari.acelerar();
 ferrari.acelerar();
 console.log(ferrari.getVelocidadeAtual());
+
+console.log(typeof Carro);
+console.log(typeof ferrari);
