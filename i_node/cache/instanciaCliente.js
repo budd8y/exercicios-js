@@ -15,6 +15,3 @@ contadorC.inc()
 contadorC.inc()
 // aqui o contadorD não irá pegar o incremento do contadorC devido a factory
 console.log(contadorC.valor, contadorD.valor) 
-
-
-
