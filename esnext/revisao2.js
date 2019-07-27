@@ -18,8 +18,8 @@ log(undefined)
 log(null)
 log('Sou mais forte')
 
-// operador rest
-// passamos os valores para a função de forma espelhada
+// operador rest (juntar todos os params passados)
+// passamos os valores para a função de forma espalhada
 // e ela retornou todos juntos
 function total(...numeros) {
     let total = 0
